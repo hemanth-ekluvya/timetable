@@ -1,0 +1,47 @@
+.paper-setter-page {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.teacher-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subject-name,
+.status,
+.att-date {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.day-date {
+  text-align: right;
+}
+
+.day {
+  font-weight: bold;
+  margin: 0;
+}
+
+.date {
+  margin: 0;
+}
+
+.class-card {
+  background-color: #f8f9fa;
+}
+
+.class-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.class-time {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}

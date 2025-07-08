@@ -1,0 +1,53 @@
+.teacher-list {
+  max-height: 600px;
+}
+
+.teacher-attendance{
+  padding-left: 100px;
+}
+
+.day-box {
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  border-radius: 10px;
+  color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-purple {
+  background-color: #d7aefb !important;
+}
+
+.bg-warning {
+  background-color: #fff176 !important;
+}
+
+.bg-primary {
+  background-color: #bbdefb !important;
+}
+
+.bg-danger {
+  background-color: #ef9a9a !important;
+}
+
+.bg-success {
+  background-color: #a5d6a7 !important;
+}
+
+.bg-light-pink {
+  background-color: #ffe6e6 !important;
+}
+
+.color-box {
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.leave-summary {
+  margin-top: 40px !important;
+  background-color: antiquewhite !important;
+}

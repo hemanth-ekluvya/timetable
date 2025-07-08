@@ -1,0 +1,74 @@
+.paper-setter-container {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.teacher-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.teacher-info .subject {
+    color: #6c757d;
+    margin-bottom: 4px;
+}
+
+.teacher-info .attended,
+.teacher-info .date {
+    font-size: 14px;
+    color: #495057;
+}
+
+.btn-allow {
+    background-color: #0d6efd;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.timetable {
+    padding: 10px 0;
+}
+
+.status-card {
+    border-left: 5px solid #dee2e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.status-card:hover {
+    transform: translateY(-4px);
+}
+
+.status-card .card-title {
+    font-weight: 600;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.status-card.completed {
+    border-left-color: green;
+}
+
+.status-card.ongoing {
+    border-left-color: orange;
+}
+
+.status-card.upcoming {
+    border-left-color: #0d6efd;
+}
+
+.title-text {
+    pointer-events: none !important;
+    user-select: none !important;
+    cursor: none !important;
+}

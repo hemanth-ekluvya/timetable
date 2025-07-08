@@ -1,0 +1,60 @@
+.s-sidebar {
+  width: 240px;
+  background: #676869;
+  color: #fff;
+}
+.s-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  display: block;
+}
+.s-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.s-link.active {
+  background: #ffffff22;
+  font-weight: 600;
+}
+.s-sidebar .s-link {
+  padding-left: 1.5rem;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.s-sidebar .s-link.active {
+  background: #ffffff33;
+}
+.s-sidebar .s-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.main-logo {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 90px !important;
+  width: 170px !important;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  min-height: 160px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.subject-card {
+  min-width: 140px;
+  text-align: center;
+  border: 1px solid #0066b0;
+  background-color: #aed4f0 !important;
+}
+
+.lunch-break {
+  min-width: 100px;
+  text-align: center;
+  align-content: center;
+  background-color: #ffffff;
+}

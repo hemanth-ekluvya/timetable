@@ -1,0 +1,87 @@
+.app-wrapper {
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.header {
+  background-color: #a7d3f6;
+  color: white;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+.main-content {
+  transition: all 0.3s ease-in-out;
+}
+
+.s-sidebar {
+  width: 270px !important;
+  background: #676869;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.s-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  display: block;
+}
+.s-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.s-link.active {
+  background: #a7d3f6;
+  font-weight: 600;
+}
+.s-sidebar .s-link {
+  padding-left: 1.5rem;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.s-sidebar .s-link.active {
+  background: #ffffff33;
+}
+.s-sidebar .s-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.profile-icon:hover {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-title {
+  font-weight: 600;
+  margin-left: 20px !important;
+  padding: 0 !important;
+}
+
+.main-logo {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 90px !important;
+  width: 170px !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .offcanvas-start {
+    width: 80% !important;
+  }
+
+  .offcanvas-title {
+    font-size: 1.25rem;
+  }
+
+  .s-sidebar-link {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+}
+
+/* Button close in white */
+.btn-close-white {
+  filter: invert(1);
+}
